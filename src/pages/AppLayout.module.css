@@ -1,0 +1,19 @@
+.app {
+  height: 100vh;
+  /* padding: 2.4rem; */
+  overscroll-behavior-y: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidenav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  background-color: var(--color-dark--1);
+  flex-basis: auto;
+
+  /* padding: 3rem 5rem 3.5rem 5rem; */
+}

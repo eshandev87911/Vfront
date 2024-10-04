@@ -1,0 +1,17 @@
+.logo {
+  height: 5.2rem;
+}
+.logoutDiv {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a.logoutBtn:link,
+a.logoutBtn:visited  {
+  background-color: red;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+  font-size:12px;
+}
